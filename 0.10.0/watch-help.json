@@ -1,0 +1,14 @@
+{
+  "executable": ".cache/typst-cli/0.10.0/0.10.0-npm.1/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "watch",
+    "--help"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "Watches an input file and recompiles on changes\n\nUsage: typst.exe watch [OPTIONS] <INPUT> [OUTPUT]\n\nArguments:\n  <INPUT>   Path to input Typst file\n  [OUTPUT]  Path to output file (PDF, PNG, or SVG)\n\nOptions:\n      --root <DIR>\n          Configures the project root (for absolute paths) [env: TYPST_ROOT=]\n      --font-path <DIR>\n          Adds additional directories to search for fonts [env: TYPST_FONT_PATHS=]\n      --diagnostic-format <DIAGNOSTIC_FORMAT>\n          The format to emit diagnostics in [default: human] [possible values: human, short]\n  -f, --format <FORMAT>\n          The format of the output file, inferred from the extension by default [possible values: pdf, png, svg]\n      --open [<OPEN>]\n          Opens the output file using the default viewer after compilation\n      --ppi <PPI>\n          The PPI (pixels per inch) to use for PNG export [default: 144]\n      --flamegraph [<OUTPUT_SVG>]\n          Produces a flamegraph of the compilation process\n  -h, --help\n          Print help\n",
+  "stderr": "",
+  "spawnError": null,
+  "timedOut": false,
+  "durationMs": 26
+}

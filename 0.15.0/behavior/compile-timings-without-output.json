@@ -1,0 +1,17 @@
+{
+  "typstVersion": "0.15.0",
+  "packageVersion": "0.15.0-npm.2",
+  "platform": "win32",
+  "arch": "x64",
+  "executable": ".cache/typst-cli/0.15.0/0.15.0-npm.2/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "compile",
+    "minimal.typ",
+    "--timings"
+  ],
+  "exitCode": 2,
+  "signal": null,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "error: a value is required for '--timings <OUTPUT_JSON>' but none was supplied\n\nFor more information, try '--help'.\n"
+}

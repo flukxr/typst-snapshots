@@ -1,0 +1,23 @@
+Processes an input file to extract provided metadata
+
+Usage: typst.exe query [OPTIONS] <INPUT> <SELECTOR>
+
+Arguments:
+  <INPUT>     Path to input Typst file
+  <SELECTOR>  Define what elements to retrieve
+
+Options:
+      --root <DIR>
+          Configures the project root [env: TYPST_ROOT=]
+      --font-path <DIR>
+          Adds additional directories to search for fonts [env: TYPST_FONT_PATHS=]
+      --diagnostic-format <DIAGNOSTIC_FORMAT>
+          In which format to emit diagnostics [default: human] [possible values: human, short]
+      --field <FIELD>
+          Extract just one field from all retrieved elements
+      --one
+          Expect and retrieve exactly one element
+      --format <FORMAT>
+          The format to serialization in [default: json] [possible values: json, yaml]
+  -h, --help
+          Print help

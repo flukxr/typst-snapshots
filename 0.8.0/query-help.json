@@ -1,0 +1,14 @@
+{
+  "executable": ".cache/typst-cli/0.8.0/0.8.0-npm.1/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "query",
+    "--help"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "Processes an input file to extract provided metadata\n\nUsage: typst.exe query [OPTIONS] <INPUT> <SELECTOR>\n\nArguments:\n  <INPUT>     Path to input Typst file\n  <SELECTOR>  Defines which elements to retrieve\n\nOptions:\n      --root <DIR>\n          Configures the project root (for absolute paths) [env: TYPST_ROOT=]\n      --font-path <DIR>\n          Adds additional directories to search for fonts [env: TYPST_FONT_PATHS=]\n      --diagnostic-format <DIAGNOSTIC_FORMAT>\n          The format to emit diagnostics in [default: human] [possible values: human, short]\n      --field <FIELD>\n          Extracts just one field from all retrieved elements\n      --one\n          Expects and retrieves exactly one element\n      --format <FORMAT>\n          The format to serialize in [default: json] [possible values: json, yaml]\n  -h, --help\n          Print help\n",
+  "stderr": "",
+  "spawnError": null,
+  "timedOut": false,
+  "durationMs": 23
+}

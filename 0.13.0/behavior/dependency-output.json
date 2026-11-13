@@ -1,0 +1,25 @@
+{
+  "name": "dependency-output",
+  "typstVersion": "0.13.0",
+  "platform": "win32",
+  "arch": "x64",
+  "observed": {
+    "depsFileExists": true,
+    "listsInputFile": true,
+    "depsFormat": "make"
+  },
+  "args": [
+    "compile",
+    "<workdir>\\doc.typ",
+    "out.pdf",
+    "--make-deps",
+    "<workdir>\\deps.make"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "",
+  "stdoutBase64": ""
+}

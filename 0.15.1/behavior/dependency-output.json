@@ -1,0 +1,25 @@
+{
+  "name": "dependency-output",
+  "typstVersion": "0.15.1",
+  "platform": "win32",
+  "arch": "x64",
+  "observed": {
+    "depsFileExists": true,
+    "listsInputFile": true,
+    "depsFormat": "json"
+  },
+  "args": [
+    "compile",
+    "<workdir>\\doc.typ",
+    "out.pdf",
+    "--deps",
+    "<workdir>\\deps.json"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "",
+  "stdoutBase64": ""
+}

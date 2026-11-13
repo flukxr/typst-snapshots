@@ -1,0 +1,23 @@
+{
+  "name": "watch-lifecycle",
+  "typstVersion": "0.13.1",
+  "platform": "win32",
+  "arch": "x64",
+  "observed": {
+    "initialCycle": true,
+    "recompiled": true,
+    "outputWritten": true
+  },
+  "args": [
+    "watch",
+    "<workdir>\\project\\doc.typ",
+    "<workdir>\\project\\out.pdf"
+  ],
+  "exitCode": null,
+  "signal": "SIGTERM",
+  "timedOut": false,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "watching <workdir>\\project\\doc.typ\nwriting to <workdir>\\project\\out.pdf\n\n[18:36:31] compiling ...\n\nwatching <workdir>\\project\\doc.typ\nwriting to <workdir>\\project\\out.pdf\n\n[18:36:31] compiled successfully in 4.88 ms\n\nwatching <workdir>\\project\\doc.typ\nwriting to <workdir>\\project\\out.pdf\n\n[18:36:32] compiling ...\n\nwatching <workdir>\\project\\doc.typ\nwriting to <workdir>\\project\\out.pdf\n\n[18:36:32] compiled successfully in 3.41 ms\n\n",
+  "stdoutBase64": ""
+}

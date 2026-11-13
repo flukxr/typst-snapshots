@@ -1,0 +1,14 @@
+{
+  "executable": ".cache/typst-cli/0.11.1/0.11.1-npm.1/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "completions",
+    "--help"
+  ],
+  "exitCode": 2,
+  "signal": null,
+  "stdout": "",
+  "stderr": "error: unrecognized subcommand 'completions'\n\n  tip: a similar subcommand exists: 'compile'\n\nUsage: typst.exe [OPTIONS] <COMMAND>\n\nFor more information, try '--help'.\n",
+  "spawnError": null,
+  "timedOut": false,
+  "durationMs": 24
+}

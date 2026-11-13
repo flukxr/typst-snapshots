@@ -1,0 +1,26 @@
+{
+  "name": "output-format",
+  "typstVersion": "0.13.1",
+  "platform": "win32",
+  "arch": "x64",
+  "observed": {
+    "warningExitCode": 0,
+    "warningStderr": "warning: unknown font family: no such font family zz\n  ┌─ \\\\?\\<workdir>\\warning.typ:1:12\n  │\n1 │ #text(font: \"No Such Font Family Zz\")[Hello]\n  │             ^^^^^^^^^^^^^^^^^^^^^^^^\n\n",
+    "errorExitCode": 1,
+    "errorStderr": "error: unclosed delimiter\n  ┌─ \\\\?\\<workdir>\\error.typ:1:9\n  │\n1 │ #let x = (\n  │          ^\n\n",
+    "fontsExitCode": 0,
+    "fontsStdout": "DejaVu Sans Mono\nLibertinus Serif\nNew Computer Modern\nNew Computer Modern Math\n"
+  },
+  "args": [
+    "compile",
+    "<warning|error>",
+    "fonts"
+  ],
+  "exitCode": 1,
+  "signal": null,
+  "timedOut": false,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "",
+  "stdoutBase64": ""
+}

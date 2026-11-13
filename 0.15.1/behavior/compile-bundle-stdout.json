@@ -1,0 +1,25 @@
+{
+  "name": "compile-bundle-stdout",
+  "typstVersion": "0.15.1",
+  "platform": "win32",
+  "arch": "x64",
+  "observed": {
+    "rejectsStdout": true
+  },
+  "args": [
+    "compile",
+    "<workdir>\\bundle.typ",
+    "-",
+    "--format",
+    "bundle",
+    "--features",
+    "bundle"
+  ],
+  "exitCode": 1,
+  "signal": null,
+  "timedOut": false,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "error: cannot write bundle to standard output\n\nwarning: bundle export is experimental\n = hint: its behaviour may change at any time\n = hint: do not rely on this feature for production use cases\n\n",
+  "stdoutBase64": ""
+}

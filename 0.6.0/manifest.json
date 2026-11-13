@@ -1,0 +1,79 @@
+{
+  "typstVersion": "0.6.0",
+  "packageVersion": "0.6.0-npm.1",
+  "platform": "win32",
+  "arch": "x64",
+  "node": "v24.13.0",
+  "collectedAt": "2026-07-18T17:27:12.087Z",
+  "status": "collected",
+  "probes": {
+    "version": {
+      "exitCode": 0,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    },
+    "root-help": {
+      "exitCode": 0,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    },
+    "compile-help": {
+      "exitCode": 0,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    },
+    "watch-help": {
+      "exitCode": 0,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    },
+    "fonts-help": {
+      "exitCode": 0,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    },
+    "query-help": {
+      "exitCode": 2,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    },
+    "update-help": {
+      "exitCode": 2,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    },
+    "init-help": {
+      "exitCode": 2,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    },
+    "info-help": {
+      "exitCode": 2,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    },
+    "completions-help": {
+      "exitCode": 2,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    },
+    "eval-help": {
+      "exitCode": 2,
+      "signal": null,
+      "timedOut": false,
+      "spawnError": null
+    }
+  },
+  "executable": ".cache/typst-cli/0.6.0/0.6.0-npm.1/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "declaredVersion": "0.6.0"
+}

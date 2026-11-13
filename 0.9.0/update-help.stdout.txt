@@ -1,0 +1,11 @@
+Self update the Typst CLI
+
+Usage: typst.exe update [OPTIONS] [VERSION]
+
+Arguments:
+  [VERSION]  Which version to update to (defaults to latest)
+
+Options:
+      --force   Forces a downgrade to an older version (required for downgrading)
+      --revert  Reverts to the version from before the last update (only possible if `typst update` has previously ran)
+  -h, --help    Print help

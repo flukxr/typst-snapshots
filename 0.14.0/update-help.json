@@ -1,0 +1,14 @@
+{
+  "executable": ".cache/typst-cli/0.14.0/0.14.0-npm.1/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "update",
+    "--help"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "Self update the Typst CLI\n\nUsage: typst.exe update [OPTIONS] [VERSION]\n\nArguments:\n  [VERSION]  Which version to update to (defaults to latest)\n\nOptions:\n      --force               Forces a downgrade to an older version (required for\n                            downgrading)\n      --revert              Reverts to the version from before the last update\n                            (only possible if `typst update` has previously ran)\n      --backup-path <FILE>  Custom path to the backup file created on update and\n                            used by `--revert`, defaults to system-dependent\n                            location [env: TYPST_UPDATE_BACKUP_PATH=]\n  -h, --help                Print help\n",
+  "stderr": "",
+  "spawnError": null,
+  "timedOut": false,
+  "durationMs": 25
+}

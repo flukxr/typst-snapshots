@@ -1,0 +1,8 @@
+Lists all discovered fonts in system and custom font paths
+
+Usage: typst.exe fonts [OPTIONS]
+
+Options:
+      --font-path <DIR>  Adds additional directories to search for fonts [env: TYPST_FONT_PATHS=]
+      --variants         Also lists style variants of each font family
+  -h, --help             Print help

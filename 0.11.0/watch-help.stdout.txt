@@ -1,0 +1,51 @@
+Watches an input file and recompiles on changes
+
+Usage: typst.exe watch [OPTIONS] <INPUT> [OUTPUT]
+
+Arguments:
+  <INPUT>
+          Path to input Typst file, use `-` to read input from stdin
+
+  [OUTPUT]
+          Path to output file (PDF, PNG, or SVG)
+
+Options:
+      --root <DIR>
+          Configures the project root (for absolute paths)
+          
+          [env: TYPST_ROOT=]
+
+      --input <key=value>
+          Add a string key-value pair visible through `sys.inputs`
+
+      --font-path <DIR>
+          Adds additional directories to search for fonts
+          
+          [env: TYPST_FONT_PATHS=]
+
+      --diagnostic-format <DIAGNOSTIC_FORMAT>
+          The format to emit diagnostics in
+          
+          [default: human]
+          [possible values: human, short]
+
+  -f, --format <FORMAT>
+          The format of the output file, inferred from the extension by default
+          
+          [possible values: pdf, png, svg]
+
+      --open [<OPEN>]
+          Opens the output file using the default viewer after compilation
+
+      --ppi <PPI>
+          The PPI (pixels per inch) to use for PNG export
+          
+          [default: 144]
+
+      --timings [<OUTPUT_JSON>]
+          Produces performance timings of the compilation process (experimental)
+          
+          The resulting JSON file can be loaded into a tracing tool such as https://ui.perfetto.dev. It does not contain any sensitive information apart from file names and line numbers.
+
+  -h, --help
+          Print help (see a summary with '-h')

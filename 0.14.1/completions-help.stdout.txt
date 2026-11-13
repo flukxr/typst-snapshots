@@ -1,0 +1,10 @@
+Generates shell completion scripts
+
+Usage: typst.exe completions <SHELL>
+
+Arguments:
+  <SHELL>  The shell to generate completions for [possible values: bash, elvish,
+           fish, powershell, zsh]
+
+Options:
+  -h, --help  Print help

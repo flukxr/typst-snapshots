@@ -1,0 +1,7 @@
+List all discovered fonts in system and custom font paths
+
+Usage: typst.exe fonts [OPTIONS]
+
+Options:
+      --variants  Also list style variants of each font family
+  -h, --help      Print help

@@ -1,0 +1,20 @@
+Displays debugging information about Typst
+
+Usage: typst.exe info [OPTIONS]
+
+Options:
+  -f, --format <FORMAT>
+          The format to serialize in, if it should be machine-readable.
+          
+          If no format is passed the output is displayed human-readable. Note
+          that human-readable format truncates the build commit hash value.
+          
+          [possible values: json, yaml]
+
+      --pretty
+          Whether to pretty-print the serialized output.
+          
+          Only applies to JSON format.
+
+  -h, --help
+          Print help (see a summary with '-h')

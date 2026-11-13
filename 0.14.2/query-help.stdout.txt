@@ -1,0 +1,102 @@
+Processes an input file to extract provided metadata
+
+Usage: typst.exe query [OPTIONS] <INPUT> <SELECTOR>
+
+Arguments:
+  <INPUT>
+          Path to input Typst file. Use `-` to read input from stdin
+
+  <SELECTOR>
+          Defines which elements to retrieve
+
+Options:
+      --field <FIELD>
+          Extracts just one field from all retrieved elements
+
+      --one
+          Expects and retrieves exactly one element
+
+      --format <FORMAT>
+          The format to serialize in
+          
+          [default: json]
+          [possible values: json, yaml]
+
+      --pretty
+          Whether to pretty-print the serialized output.
+          
+          Only applies to JSON format.
+
+      --target <TARGET>
+          The target to compile for
+          
+          [default: paged]
+
+          Possible values:
+          - paged: PDF and image formats
+          - html:  HTML
+
+      --root <DIR>
+          Configures the project root (for absolute paths)
+          
+          [env: TYPST_ROOT=]
+
+      --input <key=value>
+          Add a string key-value pair visible through `sys.inputs`
+
+      --font-path <DIR>
+          Adds additional directories that are recursively searched for fonts.
+          
+          If multiple paths are specified, they are separated by the system's
+          path separator (`:` on Unix-like systems and `;` on Windows).
+          
+          [env: TYPST_FONT_PATHS=]
+
+      --ignore-system-fonts
+          Ensures system fonts won't be searched, unless explicitly included via
+          `--font-path`
+          
+          [env: TYPST_IGNORE_SYSTEM_FONTS=]
+
+      --ignore-embedded-fonts
+          Ensures fonts embedded into Typst won't be considered
+          
+          [env: TYPST_IGNORE_EMBEDDED_FONTS=]
+
+      --package-path <DIR>
+          Custom path to local packages, defaults to system-dependent location
+          
+          [env: TYPST_PACKAGE_PATH=]
+
+      --package-cache-path <DIR>
+          Custom path to package cache, defaults to system-dependent location
+          
+          [env: TYPST_PACKAGE_CACHE_PATH=]
+
+      --creation-timestamp <UNIX_TIMESTAMP>
+          The document's creation date formatted as a UNIX timestamp.
+          
+          For more information, see
+          <https://reproducible-builds.org/specs/source-date-epoch/>.
+          
+          [env: SOURCE_DATE_EPOCH=]
+
+  -j, --jobs <JOBS>
+          Number of parallel jobs spawned during compilation. Defaults to number
+          of CPUs. Setting it to 1 disables parallelism
+
+      --features <FEATURES>
+          Enables in-development features that may be changed or removed at any
+          time
+          
+          [env: TYPST_FEATURES=]
+          [possible values: html, a11y-extras]
+
+      --diagnostic-format <DIAGNOSTIC_FORMAT>
+          The format to emit diagnostics in
+          
+          [default: human]
+          [possible values: human, short]
+
+  -h, --help
+          Print help (see a summary with '-h')

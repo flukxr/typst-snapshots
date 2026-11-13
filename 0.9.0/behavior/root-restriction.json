@@ -1,0 +1,23 @@
+{
+  "name": "root-restriction",
+  "typstVersion": "0.9.0",
+  "platform": "win32",
+  "arch": "x64",
+  "observed": {
+    "blocksOutsideRoot": true
+  },
+  "args": [
+    "compile",
+    "--root",
+    "<workdir>\\project",
+    "<workdir>\\project\\main.typ",
+    "<workdir>\\project\\out.pdf"
+  ],
+  "exitCode": 1,
+  "signal": null,
+  "timedOut": false,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "error: file not found (searched at \\\\?\\<workdir>\\project\\secret.typ)\n  ┌─ \\\\?\\<workdir>\\project\\main.typ:1:9\n  │\n1 │ #include \"/secret.typ\"\n  │          ^^^^^^^^^^^^^\n\n",
+  "stdoutBase64": ""
+}

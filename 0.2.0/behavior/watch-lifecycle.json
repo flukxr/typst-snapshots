@@ -1,0 +1,23 @@
+{
+  "name": "watch-lifecycle",
+  "typstVersion": "0.2.0",
+  "platform": "win32",
+  "arch": "x64",
+  "observed": {
+    "initialCycle": true,
+    "recompiled": true,
+    "outputWritten": true
+  },
+  "args": [
+    "watch",
+    "<workdir>\\project\\doc.typ",
+    "<workdir>\\project\\out.pdf"
+  ],
+  "exitCode": null,
+  "signal": "SIGTERM",
+  "timedOut": false,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "\u001bc\u001b[1;1H\u001b[0m\u001b[1m\u001b[38;5;10mwatching\u001b[0m <workdir>\\project\\doc.typ\n\u001b[0m\u001b[1m\u001b[38;5;10mwriting to\u001b[0m <workdir>\\project\\out.pdf\n\n[18:36:11] compiling ...\n\n\u001bc\u001b[1;1H\u001b[0m\u001b[1m\u001b[38;5;10mwatching\u001b[0m <workdir>\\project\\doc.typ\n\u001b[0m\u001b[1m\u001b[38;5;10mwriting to\u001b[0m <workdir>\\project\\out.pdf\n\n[18:36:11] compiled successfully\n\n\u001bc\u001b[1;1H\u001b[0m\u001b[1m\u001b[38;5;10mwatching\u001b[0m <workdir>\\project\\doc.typ\n\u001b[0m\u001b[1m\u001b[38;5;10mwriting to\u001b[0m <workdir>\\project\\out.pdf\n\n[18:36:12] compiling ...\n\n\u001bc\u001b[1;1H\u001b[0m\u001b[1m\u001b[38;5;10mwatching\u001b[0m <workdir>\\project\\doc.typ\n\u001b[0m\u001b[1m\u001b[38;5;10mwriting to\u001b[0m <workdir>\\project\\out.pdf\n\n[18:36:12] compiled successfully\n\n",
+  "stdoutBase64": ""
+}

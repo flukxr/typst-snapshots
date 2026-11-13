@@ -1,0 +1,26 @@
+{
+  "name": "output-format",
+  "typstVersion": "0.6.0",
+  "platform": "win32",
+  "arch": "x64",
+  "observed": {
+    "warningExitCode": 0,
+    "warningStderr": "",
+    "errorExitCode": 1,
+    "errorStderr": "error: unclosed delimiter\n  ┌─ \\error.typ:1:9\n  │\n1 │ #let x = (\n  │          ^\n\n",
+    "fontsExitCode": 0,
+    "fontsStdout": "DejaVu Sans Mono\nLinux Libertine\nNew Computer Modern\nNew Computer Modern Math\n"
+  },
+  "args": [
+    "compile",
+    "<warning|error>",
+    "fonts"
+  ],
+  "exitCode": 1,
+  "signal": null,
+  "timedOut": false,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "",
+  "stdoutBase64": ""
+}

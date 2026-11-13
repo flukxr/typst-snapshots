@@ -1,0 +1,26 @@
+{
+  "name": "color-option",
+  "typstVersion": "0.11.1",
+  "platform": "win32",
+  "arch": "x64",
+  "observed": {
+    "forcedColor": true,
+    "suppressedColor": true,
+    "autoNonTtyColor": false,
+    "autoExitCode": 1,
+    "suppressExitCode": 1
+  },
+  "args": [
+    "--color=always",
+    "compile",
+    "<workdir>\\bad.typ",
+    "out.pdf"
+  ],
+  "exitCode": 1,
+  "signal": null,
+  "timedOut": false,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "\u001b[0m\u001b[1m\u001b[38;5;9merror\u001b[0m\u001b[1m: expected expression\u001b[0m\n  \u001b[0m\u001b[36m┌─\u001b[0m \\\\?\\<workdir>\\bad.typ:1:8\n  \u001b[0m\u001b[36m│\u001b[0m\n\u001b[0m\u001b[36m1\u001b[0m \u001b[0m\u001b[36m│\u001b[0m #let x =\u001b[0m\u001b[31m \u001b[0m;\n  \u001b[0m\u001b[36m│\u001b[0m         \u001b[0m\u001b[31m^\u001b[0m\n\n",
+  "stdoutBase64": ""
+}

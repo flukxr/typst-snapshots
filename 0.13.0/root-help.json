@@ -1,0 +1,13 @@
+{
+  "executable": ".cache/typst-cli/0.13.0/0.13.0-npm.1/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "--help"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "Typst 0.13.0 (8dce676d)\n\nUsage: typst.exe [OPTIONS] <COMMAND>\n\nCommands:\n  compile  Compiles an input file into a supported output format [aliases: c]\n  watch    Watches an input file and recompiles on changes [aliases: w]\n  init     Initializes a new project from a template\n  query    Processes an input file to extract provided metadata\n  fonts    Lists all discovered fonts in system and custom font paths\n  update   Self update the Typst CLI\n  help     Print this message or the help of the given subcommand(s)\n\nOptions:\n      --color <COLOR>  Whether to use color. When set to `auto` if the terminal\n                       to supports it [default: auto] [possible values: auto,\n                       always, never]\n      --cert <CERT>    Path to a custom CA certificate to use when making\n                       network requests [env: TYPST_CERT=]\n  -h, --help           Print help\n  -V, --version        Print version\n\nResources:\n  Tutorial:                 https://typst.app/docs/tutorial/\n  Reference documentation:  https://typst.app/docs/reference/\n  Templates & Packages:     https://typst.app/universe/\n  Forum for questions:      https://forum.typst.app/\n",
+  "stderr": "",
+  "spawnError": null,
+  "timedOut": false,
+  "durationMs": 23
+}

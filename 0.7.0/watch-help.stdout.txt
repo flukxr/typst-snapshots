@@ -1,0 +1,23 @@
+Watches an input file and recompiles on changes
+
+Usage: typst.exe watch [OPTIONS] <INPUT> [OUTPUT]
+
+Arguments:
+  <INPUT>   Path to input Typst file
+  [OUTPUT]  Path to output PDF file or PNG file(s)
+
+Options:
+      --root <DIR>
+          Configures the project root [env: TYPST_ROOT=]
+      --font-path <DIR>
+          Adds additional directories to search for fonts [env: TYPST_FONT_PATHS=]
+      --diagnostic-format <DIAGNOSTIC_FORMAT>
+          In which format to emit diagnostics [default: human] [possible values: human, short]
+      --open [<OPEN>]
+          Opens the output file using the default viewer after compilation
+      --ppi <PPI>
+          The PPI (pixels per inch) to use for PNG export [default: 144]
+      --flamegraph [<OUTPUT_SVG>]
+          Produces a flamegraph of the compilation process
+  -h, --help
+          Print help

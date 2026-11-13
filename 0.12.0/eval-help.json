@@ -1,0 +1,14 @@
+{
+  "executable": ".cache/typst-cli/0.12.0/0.12.0-npm.1/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "eval",
+    "--help"
+  ],
+  "exitCode": 2,
+  "signal": null,
+  "stdout": "",
+  "stderr": "error: unrecognized subcommand 'eval'\n\nUsage: typst.exe [OPTIONS] <COMMAND>\n\nFor more information, try '--help'.\n",
+  "spawnError": null,
+  "timedOut": false,
+  "durationMs": 26
+}

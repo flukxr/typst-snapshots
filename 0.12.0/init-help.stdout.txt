@@ -1,0 +1,29 @@
+Initializes a new project from a template
+
+Usage: typst.exe init [OPTIONS] <TEMPLATE> [DIR]
+
+Arguments:
+  <TEMPLATE>
+          The template to use, e.g. `@preview/charged-ieee`
+          
+          You can specify the version by appending e.g. `:0.1.0`. If no version
+          is specified, Typst will default to the latest version.
+          
+          Supports both local and published templates.
+
+  [DIR]
+          The project directory, defaults to the template's name
+
+Options:
+      --package-path <DIR>
+          Custom path to local packages, defaults to system-dependent location
+          
+          [env: TYPST_PACKAGE_PATH=]
+
+      --package-cache-path <DIR>
+          Custom path to package cache, defaults to system-dependent location
+          
+          [env: TYPST_PACKAGE_CACHE_PATH=]
+
+  -h, --help
+          Print help (see a summary with '-h')

@@ -1,0 +1,12 @@
+Compiles the input file into a PDF file
+
+Usage: typst.exe compile [OPTIONS] <INPUT> [OUTPUT]
+
+Arguments:
+  <INPUT>   Path to input Typst file
+  [OUTPUT]  Path to output PDF file
+
+Options:
+      --open [<OPEN>]              Opens the output file after compilation using the default PDF viewer
+      --flamegraph [<OUTPUT_SVG>]  Produces a flamegraph of the compilation process and saves it to the given file or to `flamegraph.svg` in the current working directory
+  -h, --help                       Print help

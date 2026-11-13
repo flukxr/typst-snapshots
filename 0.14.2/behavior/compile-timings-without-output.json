@@ -1,0 +1,17 @@
+{
+  "typstVersion": "0.14.2",
+  "packageVersion": "0.14.2-npm.1",
+  "platform": "win32",
+  "arch": "x64",
+  "executable": ".cache/typst-cli/0.14.2/0.14.2-npm.1/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "compile",
+    "minimal.typ",
+    "--timings"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": ""
+}

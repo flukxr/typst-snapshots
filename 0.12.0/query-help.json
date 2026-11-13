@@ -1,0 +1,14 @@
+{
+  "executable": ".cache/typst-cli/0.12.0/0.12.0-npm.1/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "query",
+    "--help"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "Processes an input file to extract provided metadata\n\nUsage: typst.exe query [OPTIONS] <INPUT> <SELECTOR>\n\nArguments:\n  <INPUT>\n          Path to input Typst file. Use `-` to read input from stdin\n\n  <SELECTOR>\n          Defines which elements to retrieve\n\nOptions:\n      --root <DIR>\n          Configures the project root (for absolute paths)\n          \n          [env: TYPST_ROOT=]\n\n      --input <key=value>\n          Add a string key-value pair visible through `sys.inputs`\n\n      --font-path <DIR>\n          Adds additional directories that are recursively searched for fonts\n          \n          If multiple paths are specified, they are separated by the system's\n          path separator (`:` on Unix-like systems and `;` on Windows).\n          \n          [env: TYPST_FONT_PATHS=]\n\n      --ignore-system-fonts\n          Ensures system fonts won't be searched, unless explicitly included via\n          `--font-path`\n\n      --creation-timestamp <UNIX_TIMESTAMP>\n          The document's creation date formatted as a UNIX timestamp.\n          \n          For more information, see\n          <https://reproducible-builds.org/specs/source-date-epoch/>.\n          \n          [env: SOURCE_DATE_EPOCH=]\n\n      --diagnostic-format <DIAGNOSTIC_FORMAT>\n          The format to emit diagnostics in\n          \n          [default: human]\n          [possible values: human, short]\n\n      --package-path <DIR>\n          Custom path to local packages, defaults to system-dependent location\n          \n          [env: TYPST_PACKAGE_PATH=]\n\n      --package-cache-path <DIR>\n          Custom path to package cache, defaults to system-dependent location\n          \n          [env: TYPST_PACKAGE_CACHE_PATH=]\n\n  -j, --jobs <JOBS>\n          Number of parallel jobs spawned during compilation, defaults to number\n          of CPUs. Setting it to 1 disables parallelism\n\n      --field <FIELD>\n          Extracts just one field from all retrieved elements\n\n      --one\n          Expects and retrieves exactly one element\n\n      --format <FORMAT>\n          The format to serialize in\n          \n          [default: json]\n          [possible values: json, yaml]\n\n      --pretty\n          Whether to pretty-print the serialized output.\n          \n          Only applies to JSON format.\n\n  -h, --help\n          Print help (see a summary with '-h')\n",
+  "stderr": "",
+  "spawnError": null,
+  "timedOut": false,
+  "durationMs": 30
+}

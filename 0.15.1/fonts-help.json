@@ -1,0 +1,14 @@
+{
+  "executable": ".cache/typst-cli/0.15.1/0.15.1-npm.0/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "fonts",
+    "--help"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "Lists all discovered fonts in system and custom font paths\n\nUsage: typst.exe fonts [OPTIONS]\n\nOptions:\n      --font-path <DIR>\n          Adds additional directories that are recursively searched for fonts.\n          \n          If multiple paths are specified, they are separated by the system's\n          path separator (`:` on Unix-like systems and `;` on Windows).\n          \n          [env: TYPST_FONT_PATHS=]\n\n      --ignore-system-fonts\n          Ensures system fonts won't be searched, unless explicitly included via\n          `--font-path`\n          \n          [env: TYPST_IGNORE_SYSTEM_FONTS=]\n\n      --ignore-embedded-fonts\n          Ensures fonts embedded into Typst won't be considered\n          \n          [env: TYPST_IGNORE_EMBEDDED_FONTS=]\n\n      --variants\n          Also lists style variants of each font family\n\n  -h, --help\n          Print help (see a summary with '-h')\n",
+  "stderr": "",
+  "spawnError": null,
+  "timedOut": false,
+  "durationMs": 36
+}

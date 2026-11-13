@@ -1,0 +1,13 @@
+{
+  "executable": ".cache/typst-cli/0.9.0/0.9.0-npm.1/node_modules/@flukxr/typst-cli-win32-x64/vendor/typst.exe",
+  "args": [
+    "--help"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "The Typst compiler\n\nUsage: typst.exe [OPTIONS] <COMMAND>\n\nCommands:\n  compile  Compiles an input file into a supported output format [aliases: c]\n  watch    Watches an input file and recompiles on changes [aliases: w]\n  query    Processes an input file to extract provided metadata\n  fonts    Lists all discovered fonts in system and custom font paths\n  update   Self update the Typst CLI\n  help     Print this message or the help of the given subcommand(s)\n\nOptions:\n  -v, --verbosity...  Sets the level of logging verbosity: -v = warning & error, -vv = info, -vvv = debug, -vvvv = trace\n      --cert <CERT>   Path to a custom CA certificate to use when making network requests [env: TYPST_CERT=]\n  -h, --help          Print help\n  -V, --version       Print version\n",
+  "stderr": "",
+  "spawnError": null,
+  "timedOut": false,
+  "durationMs": 26
+}

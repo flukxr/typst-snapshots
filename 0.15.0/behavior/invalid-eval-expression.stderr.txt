@@ -1,0 +1,8 @@
+error: unknown variable: does-not-exist
+  ┌─ <input-expression>:1:0
+  │
+1 │ does-not-exist
+  │ ^^^^^^^^^^^^^^
+  │
+  = hint: if you meant to use subtraction, try adding spaces around the minus signs: `does - not - exist`
+

@@ -1,0 +1,22 @@
+Lists all discovered fonts in system and custom font paths
+
+Usage: typst.exe fonts [OPTIONS]
+
+Options:
+      --font-path <DIR>
+          Adds additional directories that are recursively searched for fonts
+          
+          If multiple paths are specified, they are separated by the system's
+          path separator (`:` on Unix-like systems and `;` on Windows).
+          
+          [env: TYPST_FONT_PATHS=]
+
+      --ignore-system-fonts
+          Ensures system fonts won't be searched, unless explicitly included via
+          `--font-path`
+
+      --variants
+          Also lists style variants of each font family
+
+  -h, --help
+          Print help (see a summary with '-h')

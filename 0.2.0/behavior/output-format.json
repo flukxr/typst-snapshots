@@ -1,0 +1,26 @@
+{
+  "name": "output-format",
+  "typstVersion": "0.2.0",
+  "platform": "win32",
+  "arch": "x64",
+  "observed": {
+    "warningExitCode": 0,
+    "warningStderr": "",
+    "errorExitCode": 1,
+    "errorStderr": "\u001b[0m\u001b[1m\u001b[38;5;9merror\u001b[0m\u001b[1m: expected closing paren\u001b[0m\n  \u001b[0m\u001b[36m┌─\u001b[0m <workdir>\\error.typ:1:10\n  \u001b[0m\u001b[36m│\u001b[0m\n\u001b[0m\u001b[36m1\u001b[0m \u001b[0m\u001b[36m│\u001b[0m #let x = (\n  \u001b[0m\u001b[36m│\u001b[0m           \u001b[0m\u001b[31m^\u001b[0m\n\n",
+    "fontsExitCode": 0,
+    "fontsStdout": "DejaVu Sans Mono\n"
+  },
+  "args": [
+    "compile",
+    "<warning|error>",
+    "fonts"
+  ],
+  "exitCode": 1,
+  "signal": null,
+  "timedOut": false,
+  "spawnError": null,
+  "stdout": "",
+  "stderr": "",
+  "stdoutBase64": ""
+}
